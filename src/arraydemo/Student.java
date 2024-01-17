@@ -5,7 +5,7 @@
 package arraydemo;
 
 /**
- *Commenting for modification on Jan 17 at 9:48AM
+ *
  * @author jaismansinghsidhu
  */
 public class Student {
