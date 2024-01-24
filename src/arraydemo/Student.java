@@ -11,6 +11,15 @@ package arraydemo;
 public class Student {
     private int sId;
     private String name;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public int getsId() {
         return sId;
@@ -28,9 +37,10 @@ public class Student {
         this.name = name;
     }
 
-    public Student(int sId, String name) {
+    public Student(int sId, String name, String address) {
         this.sId = sId;
         this.name = name;
+        this.address = address;
     }
     
     
